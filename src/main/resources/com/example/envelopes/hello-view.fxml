@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="569.0" prefWidth="750.0" spacing="20.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <SplitPane dividerPositions="0.7226297968397292" prefHeight="526.0" prefWidth="710.0">
+         <items>
+            <AnchorPane fx:id="anchorPane" prefHeight="200.0" prefWidth="200.0" />
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Slider fx:id="tSlider" layoutY="54.0" max="1000.0" prefHeight="82.0" prefWidth="217.0" value="2.0" />
+                  <Slider fx:id="nSlider" layoutY="156.0" max="200.0" min="1.0" prefHeight="74.0" prefWidth="217.0" value="10.0" />
+                  <TextField fx:id="tField" layoutX="133.0" layoutY="41.0" prefHeight="26.0" prefWidth="51.0" />
+                  <TextField fx:id="nField" layoutX="133.0" layoutY="136.0" prefHeight="26.0" prefWidth="51.0" />
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+   </children>
+</VBox>
